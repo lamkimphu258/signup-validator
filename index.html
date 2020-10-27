@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Signup</h1>
+      <form action="" id="signup-form">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter your username" />
+          <small>Error</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter your email" />
+          <small>Error</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+          <small>Error</small>
+        </div>
+        <div class="form-control">
+          <label for="retype-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            ,
+            placeholder="Retype your password"
+          />
+          <small>Error</small>
+        </div>
+        <button class="btn btn-primary">Create New Account</button>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
